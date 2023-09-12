@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <!-- to support older versions of microsoft browsers -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+
+    <!-- scaling between devices -->
+    <meta name="viewport" content="width=device-width", initial-scale="1.0"> 
+    
+    <title> LCB No Frills Mart </title>
+
+    <!-- swiper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    
+    <!-- font awesome files -->
+    <link href="assets\css\fontawesome.css" rel="stylesheet">
+    <link href="assets\css\brands.css" rel="stylesheet">
+    <link href="assets\css\solid.css" rel="stylesheet">
+    
+    <!-- css file -->
+    <link href="style1.css" rel="stylesheet">
+
+</head>
+
+<body>
+<!-- header -->
+<header class="header">
+    
+    <!-- link to index top left -->
+    <a href="#" class="logo"> <img src="images\logo\obj.png"> LCB No Frills Mart </a>
+    
+    <!-- -->
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#review">Reviews</a>
+        <a href="#blog">Blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search for a Product...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images\products\custom\ShichimiTogarashi (Custom).png" alt="SB Shichimi Togarashi">
+                <div class="content">
+                    <h3>SB shichimi togarashi</h3>
+                    <h2>15 g</h2>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₱120.00</span>
+                </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images\products\custom\Webengton’s - Anisado (Custom).png" alt="Webengton’s - Anisado">
+                <div class="content">
+                    <h3>webengton’s - anisado</h3>
+                    <h2>750 ML</h2>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₱105.00</span>
+                </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images\products\custom\Tiparos Thai Fish Sauce 1.5L (Custom).png" alt="Tiparos Thai Fish Sauce 1.5L">
+                <div class="content">
+                    <h3>tiparos thai fish sauce</h3>
+                    <h2>700 ML</h2>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">₱280.00</span>
+                </div>
+        </div>
+
+        <h3 class="total"> total : <span>₱505.00</span> </h3>
+        <a href="#" class="btn">checkout cart</a>
+
+    </div>
+
+    <form action="" class="login-form">
+
+        <h3>login now</h3>
+        <input type="email" placeholder="Email address" class="box">
+        <input type="password" placeholder="Password" class="box">
+        <p>forget password <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    
+    </form>
+
+</header>
+
+<!-- home -->
+<section class="home" id="home">
+    
+    <div class="content">
+
+        <h3>savory and<span> AUTHENTIC </span> products for your</h3>
+        <p>Embrace the authentic flavors of Asia with LCB No Frills Mini Mart.</p>
+        <a href="#" class="btn">shop now</a>
+
+    </div>
+
+</section>
+
+<!-- features -->
+<section class="features" id="features">
+
+    <h1 class="heading">our <span>features</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images\feature\1.png" alt="Fresh and Organic">
+            <h3>Savory and Authentic</h3>
+            <p>Discover Rare Flavors at LCB No Frills Mart!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images\feature\availablenationwide (Custom).png" alt="Available Nationwide">
+            <h3>nationwide delivery</h3>
+            <p>LCB No Frills Mart, Bringing the World to You!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images\feature\payment (Custom).png" alt="Easy Payment">
+            <h3>easy payments</h3>
+            <p>Seamless Shopping, Effortless Payments.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- products -->
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span></h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images\products\orig\ShichimiTogarashi.png" alt="SB Shichimi Togarashi">
+                <h3>SB Shichimi Togarashi</h3>
+                <div class="price">15 G | ₱120.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images\products\orig\Nguan Soon-Palm Sugar.png" alt="Nguan Soon-Palm Sugar">
+                <h3>Nguan Soon Palm Sugar</h3>
+                <div class="price">500 g | ₱205.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images\products\orig\MDH Peacock KASOORI METHI dried fenugreek leaves.png" alt="MDH Peacock KASOORI METHI dried fenugreek leaves">
+                <h3>MDH dried fenugreek leaves</h3>
+                <div class="price">25 g | ₱95.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images\products\orig\MDH Curry Masala for Meat.png" alt="MDH Curry Masala for Meat">
+                <h3>MDH Curry Masala for Meat</h3>
+                <div class="price">100 g | ₱145.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images\products\orig\Yamato Katsuobushi Bonito Flakes PREMIUM.png" alt="Yamato Katsuobushi Bonito Flakes PREMIUM">
+                <h3>Yamato Katsuobushi Bonito Flakes PREMIUM</h3>
+                <div class="price">500 g | ₱1,072.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images\products\orig\Sajo Haepyo Seasoned-Roasted Seaweeds.png" alt="Sajo Haepyo Seasoned/Roasted Seaweeds">
+                <h3>Sajo Haepyo Seasoned/Roasted Seaweeds</h3>
+                <div class="price">4 g x 16/8/4 | ₱100.00 - ₱330.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images\products\orig\SHIMONITA BUSSAN SHIRATAKI.png" alt="SHIMONITA BUSSAN SHIRATAKI">
+                <h3>shimonita bussan shirataki</h3>
+                <div class="price">180 g | ₱68.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images\products\orig\Webengton’s - Anisado.png" alt="Webengton Anisado">
+                <h3>Webengton's - Anisado</h3>
+                <div class="price">750 ML | ₱105.00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- reviews -->
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images\review1.jpg" alt="">
+                <p>The item arrived in perfect condition. It was thoroughly wrapped.</p>
+                <h3>kookai1207</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images\review2.jpg" alt="">
+                <p>Well packed and secured 
+                    Item shipped immediately
+                    Very accommodating seller
+                    Will order again
+                    
+                    Thank you seller! Stay safe! GOD bless you!</p>
+                <h3>megatechph</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images\review3.jpg" alt="">
+                <p>Ang bilis ng shipping at balot na balot. Iningatan talaga. Thank you seller.</p>
+                <h3>nikkico</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images\review4.jpg" alt="">
+                <p>Legit! Thanks seller!</p>
+                <h3>sanoria498</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blog -->
+<section class="blog" id="blog">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images\banner\banner1.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2023 </a>
+                </div>
+                <h3>Exploring the Hidden Gems: A Journey through Asian Ingredients</h3>
+                <p>Join us on a virtual expedition as we uncover the lesser-known Asian ingredients that can elevate your culinary creations. From rare spices to unique grains, this blog dives deep into the world of Asian cuisine, sharing insights, tips, and recipes that showcase the versatility and flavors of these hidden gems.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images\banner\banner4.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2023 </a>
+                </div>
+                <h3>Mastering Authentic Asian Flavors: Insider Tips from Chefs and Bakers</h3>
+                <p>Gain exclusive access to the expertise of renowned chefs and skilled bakers as they reveal their secrets to mastering authentic Asian flavors. This blog series features interviews, techniques, and step-by-step guides that will empower you to recreate your favorite Asian dishes at home with confidence and finesse.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images\banner\banner3.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2023 </a>
+                </div>
+                <h3>Culinary Fusion: Discovering the Art of Blending Asian and Global Cuisines</h3>
+                <p>Embark on a culinary adventure where traditional Asian ingredients meet global flavors. This blog celebrates the art of fusion cooking, providing innovative recipes, ingredient pairings, and creative techniques that will inspire you to experiment and create harmonious dishes that blend the best of both worlds. Unleash your creativity and explore the endless possibilities of culinary fusion with us.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- footer -->
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> LCB No Frills Mart <img src="images\logo\obj.png"> </h3>
+            <p>Embrace the authentic flavors of Asia with LCB No Frills Mini Mart. Explore our extensive collection of Asian ingredients and elevate your culinary creations to new heights. Trust us to bring you the genuine taste of Korea, Japan, and beyond, right to your kitchen.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3> contact information </h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> (+63) 927-298-6500 </a>
+                <a href="#" class="links"> <i class="fas fa-email"></i> lcbparfum@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-phonemap-marker-alt"></i> #2 7th Street Pacita Complex 1, 4023 San Pedro, Laguna Philippines </a>
+        </div>
+
+        <div class="box">
+            <h3> quick links </h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> about us </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> contact </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> reviews </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blog </a>
+        </div>
+
+        <div class="box">
+            <h3> newsletter </h3>
+            <p>subscribe for the latest updates!</p>
+            <input type="email" placeholder="Email address" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> group number </span> | all rights reserved.</div>
+
+</section>
+
+<!-- swiper js file -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- js file -->
+<script src="script1.js"></script>
+
+</body>
+</html>  

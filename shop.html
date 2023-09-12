@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+
+        <!-- to support older versions of microsoft browsers -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+
+        <!-- scaling between devices -->
+        <meta name="viewport" content="width=device-width", initial-scale="1.0"> 
+        
+        <title> Shop | LCB No Frills Mart </title>
+
+        <!-- swiper link -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+        
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        
+        <!-- css file -->
+        <link href="css\style.css" rel="stylesheet">
+
+        <link rel="icon" type="image/x-icon" href="images\logo\logofinal.png">
+
+    </head>
+
+    <body>
+
+        <!-- header -->
+        <header class="header">
+
+            <a href="home.html" class="logo"> <img src="images\logo\obj.png"> LCB No Frills Mart </a>
+
+            <nav class="navbar">
+                <a href="home.html">home</a>
+                <a href="shop.html">shop</a>
+                <a href="about.html">about</a>
+                <a href="review.html">review</a>
+                <a href="blog.html">blog</a>
+                <a href="contact.html">contact</a>
+            </nav>
+
+            <div class="icons">
+                <div class="fas fa-bars" id="menu-btn"></div>
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+                <div class="fa fa-user" id="login-btn"></div>
+            </div>
+
+            <form action="" class="search-form">
+                <input font-style="italic" type="search" placeholder="search for spices, herbs..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="shopping-cart">
+
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="images\products\custom\ShichimiTogarashi (Custom).png" alt="SB Shichimi Togarashi">
+                        <div class="content">
+                            <h3>SB shichimi togarashi</h3>
+                            <h2>15 g</h2>
+                            <span class="quantity">1</span>
+                            <span class="multiply">x</span>
+                            <span class="price">₱120.00</span>
+                        </div>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="images\products\custom\Webengton’s - Anisado (Custom).png" alt="Webengton’s - Anisado">
+                        <div class="content">
+                            <h3>webengton’s - anisado</h3>
+                            <h2>750 ML</h2>
+                            <span class="quantity">1</span>
+                            <span class="multiply">x</span>
+                            <span class="price">₱105.00</span>
+                        </div>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="images\products\custom\Tiparos Thai Fish Sauce 1.5L (Custom).png" alt="Tiparos Thai Fish Sauce 1.5L">
+                        <div class="content">
+                            <h3>tiparos thai fish sauce</h3>
+                            <h2>700 ML</h2>
+                            <span class="quantity">1</span>
+                            <span class="multiply">x</span>
+                            <span class="price">₱280.00</span>
+                        </div>
+                </div>
+
+                <h3 class="total"> total : <span>₱505.00</span> </h3>
+                <a href="#" class="btn">checkout cart</a>
+
+            </div>
+
+            <form action="" class="login-form">
+                <h3>login form</h3>
+                <input type="email" placeholder="Email address" class="box">
+                <input type="password" placeholder="Password" class="box">
+                
+                <div class="remember">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">remember me!</label>
+                </div>
+
+                <p>forget password <a href="#">click here</a></p>
+                <p>don't have an account? <a href="#">create now</a></p>
+                <input type="submit" value="login now" class="btn">
+            </form>
+
+        </header>
+
+        <div class="heading">
+            <h1>our shop</h1>
+            <p> <a href="home.html"> home <i class="fa fa-angle-double-right"></i></a> shop </p>
+        </div>
+
+        <section class="categories">
+
+            <h1 class="title"> our <span> categories </span> <a href="#"> view all <i class="fa fa-angle-double-right"></i> </a> </h1>
+
+            <div class="box-container">
+
+                <a href="#china" class="box">
+                    <img src="images\icons\custom\china-icon.png" alt="china">
+                    <h3>china</h3>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="images\icons\custom\germany-icon.png" alt="germany">
+                    <h3>germany</h3>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="images\icons\custom\india-icon.png" alt="india">
+                    <h3>india</h3>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="images\icons\custom\indonesia-icon.png" alt="indonesia">
+                    <h3>indonesia</h3>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="images\icons\custom\italy-icon.png" alt="italy">
+                    <h3>italy</h3>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="images\icons\custom\japan-icon.png" alt="japan">
+                    <h3>japan</h3>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="images\icons\custom\korea-icon.png" alt="korea">
+                    <h3>korea</h3>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="images\icons\custom\pakistan-icon.png" alt="pakistan">
+                    <h3>pakistan</h3>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="images\icons\custom\ph-icon.png" alt="philippines">
+                    <h3>philippines</h3>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="images\icons\custom\singapore-icon.png" alt="spain">
+                    <h3>spain</h3>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="images\icons\custom\thailand-icon.png" alt="thailand">
+                    <h3>thailand</h3>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="images\icons\custom\uk-icon.png" alt="UK">
+                    <h3>United Kingdom | UK</h3>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="images\icons\custom\america.png" alt="USA">
+                    <h3>Unites States of America | USA</h3>
+                </a>
+
+                <a href="#" class="box">
+                    <img src="images\icons\custom\others-icon.png" alt="others">
+                    <h3>utensils and packaging supplies</h3>
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="products">
+
+            <h1 class="title"> our <span> products </span> <a href="#"> view all <i class="fa fa-angle-double-right"></i> </a> </h1>
+            
+            <div class="box-container">
+            
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images\products\orig\ShichimiTogarashi.png" alt="SB Shichimi Togarashi">
+                    </div>
+                    <div class="content">
+                        <h3>SB Shichimi Togarashi</h3>
+                        <div class="price">15 G | ₱120.00</div>
+                        <div class="stars">
+                            <p><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            (5.0)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images\products\orig\Nguan Soon-Palm Sugar.png" alt="Nguan Soon-Palm Sugar">
+                    </div>
+                    <div class="content">
+                        <h3>Nguan Soon Palm Sugar</h3>
+                        <div class="price">500 g | ₱205.00</div>
+                        <div class="stars">
+                            <p><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            (5.0)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images\products\orig\MDH Peacock KASOORI METHI dried fenugreek leaves.png" alt="MDH Peacock KASOORI METHI dried fenugreek leaves">
+                    </div>
+                    <div class="content">
+                        <h3>MDH dried fenugreek leaves</h3>
+                        <div class="price">25 g | ₱95.00</div>
+                        <div class="stars">
+                            <p><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            (4.9)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images\products\orig\MDH Curry Masala for Meat.png" alt="MDH Curry Masala for Meat">
+                    </div>
+                    <div class="content">
+                        <h3>MDH Curry Masala for Meat</h3>
+                        <div class="price">100 g | ₱145.00</div>
+                        <div class="stars">
+                            <p><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            (4.5)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images\products\orig\Yamato Katsuobushi Bonito Flakes PREMIUM.png" alt="Yamato Katsuobushi Bonito Flakes PREMIUM">
+                    </div>
+                    <div class="content">
+                        <h3>Yamato Katsuobushi Bonito Flakes PREMIUM</h3>
+                        <div class="price">500 g | ₱1,072.00</div>
+                        <div class="stars">
+                            <p><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            (5.0)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images\products\orig\Sajo Haepyo Seasoned-Roasted Seaweeds.png" alt="Sajo Haepyo Seasoned/Roasted Seaweeds">
+                    </div>
+                    <div class="content">
+                        <h3>Sajo Haepyo Seasoned / Roasted Seaweeds</h3>
+                        <div class="price">4 g x 16/8/4 | ₱100.00 - ₱330.00</div>
+                        <div class="stars">
+                            <p><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            (4.2)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images\products\orig\SHIMONITA BUSSAN SHIRATAKI.png" alt="SHIMONITA BUSSAN SHIRATAKI">
+                    </div>
+                    <div class="content">
+                        <h3>shimonita bussan shirataki</h3>
+                        <div class="price">180 g | ₱68.00</div>
+                        <div class="stars">
+                            <p><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            (5.0)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images\products\orig\Webengton’s - Anisado.png" alt="Webengton Anisado">
+                    </div>
+                    <div class="content">
+                        <h3>Webengton's - Anisado</h3>
+                        <div class="price">750 ML | ₱105.00</div>
+                        <div class="stars">
+                            <p><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            (4.5)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images\products\orig\Canlu Minjui Rice Wine.png" alt="Canlu Minjui Rice Wine">
+                    </div>
+                    <div class="content">
+                        <h3>Canlu Minjui Rice Wine</h3>
+                        <div class="price">500 ML | ₱140.00</div>
+                        <div class="stars">
+                            <p><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            (5.0)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images\products\orig\Gu Yuelong Mountain Shaoxing Yellow Wine 3 year Carving Flower Corps Cooking Wine.png" alt="Gu Yuelong Mountain - Cooking Wine">
+                    </div>
+                    <div class="content">
+                        <h3>Gu Yuelong Mountain - Cooking Wine</h3>
+                        <div class="price">500 ML | ₱210.00</div>
+                        <div class="stars">
+                            <p><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            (5.0)</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        
+        </section>
+
+
+        <!-- footer -->
+        <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="home.html"> <i class="fas fa-arrow-right"></i> home</a>
+                    <a href="shop.html"> <i class="fas fa-arrow-right"></i> shop</a>
+                    <a href="about.html"> <i class="fas fa-arrow-right"></i> about</a>
+                    <a href="review.html"> <i class="fas fa-arrow-right"></i> review</a>
+                    <a href="blog.html"><i class="fas fa-arrow-right"></i> blog</a>
+                    <a href="contact.html"><i class="fas fa-arrow-right"></i> contact</a>
+                </div>
+                
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> my orders </a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> my favorites </a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> my wishlist </a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> my account </a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> terms of use </a>
+                </div>
+
+                <div class="box">
+                    <h3>follow us!</h3>
+                    <a href="https://www.facebook.com/lcbnofrills"> <i class="fab fa-facebook-f"></i> facebook </a>
+                    <a href="https://shopee.ph/lcbnofrills?categoryId=100629&entryPoint=ShopByPDP&itemId=4168484602"> <i class="fa fa-shopping-basket"></i> shopee </a>
+                </div>
+
+                <div class="box">
+                    <h3>newsletter</h3>
+                    <p>subscribe for the latest updates!</p>
+                    <form action="">
+                        <input type="email" placeholder="Email address" class="email">
+                        <input type="submit" value="subscribe" class="btn">
+                    </form>
+                    <img src="images\icons\custom\payment.png" class="payment-img" alt="">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="credit"> Created By <a href="#">BSCS 1 YB 1</a> | All Rights Reserved! </section>
+
+        <!-- swiper js-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- js file -->
+        <script src="script.js"></script>
+
+    </body>
+
+</html> 
